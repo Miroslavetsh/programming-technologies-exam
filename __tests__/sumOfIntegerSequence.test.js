@@ -1,6 +1,6 @@
-const sumOfIntegerSequence = require('./index')
+const sumOfIntegerSequence = require('../sumOfIntegerSequence')
 
-describe('Test sum of function Xn = 1, 2, 3, 4', () => {
+describe('Test sum of function Xn = 1, 2, 3, 4, ..., n == [sum from 1 to n]', () => {
   test('X() returns number', () => {
     expect(typeof sumOfIntegerSequence()).toStrictEqual('number')
   })

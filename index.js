@@ -1,3 +1,5 @@
-const sumOfIntegerSequence = (n = 0) => (n * (n + 1)) / 2
+const input = document.getElementById('input')
 
-module.exports = sumOfIntegerSequence
+input.addEventListener('change', (e) => {
+  if (e.target.value) alert(sumOfIntegerSequence(+e.target.value))
+})
