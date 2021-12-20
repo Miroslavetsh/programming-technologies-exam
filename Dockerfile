@@ -6,4 +6,5 @@ COPY package*.json .
 COPY . .
 EXPOSE 3000
 
-CMD ["npm", "test"]
+CMD ["echo", "11.04.2002"]
+ENTRYPOINT ["npm", "test"]
