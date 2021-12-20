@@ -10,7 +10,7 @@ describe('Test sum of function Xn = 1, 2, 3, 4, ..., n == [sum from 1 to n]', ()
   })
 
   test('X(1) ---> 1 = 1', () => {
-    expect(X(1)).toStrictEqual(1)
+    expect(X(1)).toStrictEqual(2)
   })
 
   test('X(2) ---> 1 + 2 = 3', () => {
