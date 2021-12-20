@@ -24,4 +24,8 @@ describe('Test sum of function Xn = 1, 2, 3, 4, ..., n == [sum from 1 to n]', ()
   test('X(4) ---> 1 + 2 + 3 + 4 = 6', () => {
     expect(X(4)).toStrictEqual(10)
   })
+
+  test('X(8729386936286) ---> 3.8101098141704703e+25', () => {
+    expect(X(8729386936286)).toStrictEqual(3.8101098141704703e25)
+  })
 })
